@@ -306,20 +306,8 @@
       page.appendChild(extraGrid);
     }
 
-    page.appendChild(el("h2", "shelf-group", "专题练习"));
-
-    var quizGrid = el("div", "book-grid");
-    var quizCard = el("a", "book-card");
-    quizCard.href = "../quiz/index.html";
-    quizCard.appendChild(el("h3", "book-title", "长征胜利90周年 · 应知应会100题"));
-    quizCard.appendChild(el("p", "book-meta", "100 题 · 单选 60 · 多选 20 · 判断 20"));
-    quizCard.appendChild(el("p", "book-blurb",
-      "纪念中国工农红军长征胜利90周年专项题库，逐题作答，交卷后统一对答案。"));
-    quizGrid.appendChild(quizCard);
-    page.appendChild(quizGrid);
-
     var foot = el("p", "site-foot",
-      "背诵内容来自《" + DATA.book.source + "》 · 刷题题目来自长征 90 周年题库 · 本页为本地离线版。");
+      "背诵内容来自《" + DATA.book.source + "》  本页为本地离线版。");
     page.appendChild(foot);
     return page;
   }

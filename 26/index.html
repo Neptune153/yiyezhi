@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f6f7f9">
+  <meta name="description" content="澄潇宇《26考研一页纸》离线背诵版：234 个知识点、彩色关键词与原始卡片排版，纯静态、无需联网。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M7 3h12l6 6v20H7z' fill='%23ffffff' stroke='%23334155' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M19 3v6h6' fill='none' stroke='%23334155' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M11 15h10M11 19h10M11 23h6' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+  <title>澄潇宇《26考研一页纸》· 背诵</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="../index.html">一页纸</a>
+      <nav class="nav" aria-label="主导航">
+        <a class="nav-trigger is-active" href="#/">背诵</a>
+      </nav>
+      <span class="topbar-spacer"></span>
+      <div id="top-links" class="top-links" aria-label="其他工具"></div>
+    </header>
+    <main id="app" class="main" aria-live="polite"></main>
+  </div>
+
+  <aside id="side-toc" class="side-toc" hidden aria-label="快速目录"></aside>
+  <div id="toc-overlay" class="toc-overlay" hidden></div>
+  <button id="toc-toggle" class="toc-toggle" type="button" aria-controls="side-toc" aria-expanded="false">目录</button>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="lightbox-close" type="button" aria-label="关闭">×</button>
+    <img id="lightbox-img" alt="">
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="content/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
